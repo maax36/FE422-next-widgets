@@ -1,6 +1,13 @@
 table.calendar {
     border-collapse: collapse;
     & td {
-        border: 1px #000 solid;
+        border: 1px lavenderblush solid;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    & .selected {
+        background-color: lime;
+        border-radius: 50%;
     }
 }
